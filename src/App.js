@@ -1,5 +1,6 @@
 import "./styles.css";
 import React, { useState } from "react";
+import ReactDom from "react-dom";
 
 export default function App() {
   const [item, setItem] = useState(0);
